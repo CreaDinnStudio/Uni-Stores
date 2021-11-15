@@ -1,0 +1,141 @@
+.cont100 {
+    width: 100%;
+    background-color: rgb(255, 159, 15);
+}
+
+.cont100 .contTitulo {
+    width: 83%;
+    
+}
+
+.cont100 h3{
+    width: 100%;
+    color: white;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Petemoss', cursive;letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+/* Estilos de contenedor del logo */
+
+.container #contLogo{
+    text-align: center;
+}
+
+
+.container #contLogo img{
+    width: 280px;
+    border-radius: 20px;
+}
+
+/* Estilos del contenedor de los productos */
+
+#ContTienda{
+    background-color: #f5f5f5;
+}
+
+.container #ContTienda h3{
+    color: rgb(255, 159, 15);
+    margin-top: 0;
+    font-size: 50px;
+    font-family: 'Petemoss', cursive;letter-spacing: 2px;
+}
+
+
+#ContTienda{
+    text-align: center;
+}
+
+#ContTienda ul{
+    text-align: center;
+}
+
+#ContTienda ul{
+    text-align: center;
+    text-overflow: scroll;
+}
+
+.nav-pills li button{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(36, 36, 36) !important;
+} 
+.nav-pills li .active{
+    background-color: rgb(255, 159, 15)!important;
+    color: white !important;
+}
+
+/* estilos del modal */
+
+.modal-header{
+    padding: 0 !important;
+}
+.modal-header .modal-title{
+    font-family: 'Petemoss', cursive;letter-spacing: 2px;
+    font-size: 40px;
+    padding-left: 20px;
+    color: rgb(255, 159, 15);
+}
+
+/* Estilos del carousel */
+
+#carouselExampleIndicators{
+    width: 70%;
+}
+
+.modal-body .container p{
+    text-align: start;
+}
+
+#Precios{
+    background-color: azure;
+    text-align: center !important;
+}
+
+#Precios p{
+    text-align: center !important;
+}
+
+#Precios #porcentajeOFF{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+/* BOTONES DE COMRPAS */
+
+#btnCompras{
+    text-align: center;
+}
+
+#btnCompras a{
+    text-decoration: none;
+    color: rgb(39, 39, 39);
+    font-weight: 700;
+    line-height: 20px;
+    /* background-color: rgb(211, 255, 15); */
+    border-radius: 10px;
+}
+
+#btnCompras #btncomprar{
+    background-color: rgb(255, 159, 15);
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 10px;
+}
+
+@media (max-width: 768px){
+    #carouselExampleIndicators{
+        width: 90%;
+    }
+}
+
+@media (max-width: 500px){
+    .modal-body .container {
+        padding: 0;
+    }
+}
